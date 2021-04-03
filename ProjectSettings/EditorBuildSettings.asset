@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/NextScene.unity
+    guid: 57eb27fac91b6734789ca101c3b7fb7e
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b00ad8a91191b3844ad547d9eae194d5,
+      type: 2}
