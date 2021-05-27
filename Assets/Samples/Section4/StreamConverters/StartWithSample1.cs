@@ -9,7 +9,7 @@ namespace Samples.Section4.StreamConverters
         {
             Observable.Range(1, 3)
                 // Subscribe()時に -1 を発行する
-                .StartWith(() => -1)
+                .StartWith(-1)
                 .Subscribe(x => Debug.Log(x));
         }
     }
