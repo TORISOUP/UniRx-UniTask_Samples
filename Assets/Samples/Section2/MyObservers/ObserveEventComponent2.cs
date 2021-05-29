@@ -8,9 +8,6 @@ namespace Samples.Section2.MyObservers
     {
         [SerializeField] private CountDownEventProvider _countDownEventProvider;
 
-        // Observerのインスタンス
-        private PrintLogObserver<int> _printLogObserver;
-
         private IDisposable _disposable;
 
         private void Start()
